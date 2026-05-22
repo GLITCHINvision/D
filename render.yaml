@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: D
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
