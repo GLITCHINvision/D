@@ -4,6 +4,7 @@ import MograCanvas, { triggerMograBurst } from './components/MograCanvas';
 import ConfettiExplosion, { triggerConfetti, playConfettiSound } from './components/ConfettiExplosion';
 import EasterEggs from './components/EasterEggs';
 import AmbientEffects from './components/AmbientEffects';
+import WavingTeddy from './components/WavingTeddy';
 import AudioPlayer from './components/AudioPlayer';
 import CoconutSVG from './components/CoconutSVG';
 import PrescriptionCard from './components/PrescriptionCard';
@@ -168,6 +169,9 @@ function App() {
       
       {/* Confetti explosion effect */}
       <ConfettiExplosion />
+      
+      {/* Waving teddy in corner */}
+      <WavingTeddy />
 
       {/* Main card box */}
       <div className="card-container">

@@ -2,16 +2,17 @@
    DESIGN SYSTEM & CORE VARIABLES
    -------------------------------------------------- */
 :root {
-  --bg-gradient: linear-gradient(135deg, #FFE5F0 0%, #FDD5E7 50%, #FFC9DC 100%);
-  --primary-color: #E894B9; /* Vibrant pink */
-  --primary-hover: #D47BA0; /* Darker pink */
-  --secondary-color: #F5D5E5; /* Soft light pink */
-  --accent-color: #F0A8D4; /* Soft rose pink */
-  --text-dark: #4A3540; /* Deep wine */
-  --text-light: #9B7D8A; /* Mauve grey */
-  --glass-bg: rgba(255, 255, 255, 0.78);
-  --glass-border: rgba(255, 255, 255, 0.6);
-  --glass-shadow: 0 12px 40px rgba(232, 148, 185, 0.15); /* Soft pink glow shadow */
+  --bg-gradient: linear-gradient(135deg, #FBF5F8 0%, #F3EEF5 35%, #EDF2F7 65%, #F5F0F4 100%);
+  --primary-color: #5BB3A1; /* Calming mint-teal */
+  --primary-hover: #489F8E;
+  --secondary-color: #E8D5DF; /* Soft blush-sage */
+  --accent-color: #D4A0B0; /* Dusty rose */
+  --text-dark: #3D363B; /* Warm charcoal */
+  --text-light: #7D6E78; /* Soft mauve grey */
+  --glass-bg: rgba(255, 248, 252, 0.82);
+  --glass-border: rgba(255, 230, 240, 0.5);
+  --glass-shadow: 0 12px 40px rgba(196, 140, 160, 0.1);
+  --pink-glow: rgba(212, 160, 176, 0.12);
   
   --font-cute: 'Caveat', cursive;
   --font-body: 'Quicksand', sans-serif;
